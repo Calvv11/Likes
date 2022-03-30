@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background: whitesmoke;
+    border: solid 2px black;
+    height: 100px;
+    width: 400px;
+    padding: 20px;
+    margin: 25px auto;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+    font-size: 25px;
+}
+
+button {
+    background-color: gold;
+    border: solid 2px black;
+    box-shadow: 3px 3px 0px black;
+    width: 60px;
+}
+
+.text {
+    display: flex;
+    font-size: 20px;
+    margin: 20px 10px;
+}

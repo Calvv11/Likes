@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: whitesmoke;
+    height: 2000px;
+}
+
+.navbar {
+    background-color: black;
+    height: 65px;
+    width: 862px;
+    padding: 10px;
+    margin: 0px 770px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.main-content .feed {
+    font-size: 30px;
+    padding: 5px 1210px 0px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 275px;
+    width: 175px;
+    border: solid 2px black;
+    margin: 10px 770px;
+}
+
+.leftbar img {
+    height: 100px;
+    width: 100px;
+}
+
+.leftbar a {
+    font-size: 20px;
+}
+
+.leftbar p {
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.card {
+    background: whitesmoke;
+    border: solid 2px black;
+    height: 150px;
+    width: 600px;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+    left: 1000px;
+    bottom: 299px;
+}
+
+.top-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+    font-size: 30px;
+}
+
+#likes {
+    margin-left: 200px;
+}
+
+#likes2 {
+    margin-left: 160px;
+}
+
+#likes3 {
+    margin-left: 200px;
+}
+
+button {
+    background-color: gold;
+    border: solid 2px black;
+    box-shadow: 3px 3px 0px black;
+    width: 60px;
+}
+
+.text {
+    display: flex;
+    font-size: 30px;
+    margin: 50px 10px;
+}
